@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(https://img.freepik.com/free-photo/top-view-chat-bubbles-with-telephone-receiver-copy-space_23-2148796078.jpg?w=740&t=st=1709912157~exp=1709912757~hmac=fa335c0952ec10db27bbcfd2b739ae40f02a1911d4c1e6eb3d166bc7eec3767d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.Menu-bar
+{
+    background:green;
+    text-align: center;
+}
+.Menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.Menu-bar ul li
+{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+.active,.Menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.text-box
+{
+    margin-top: 18%;
+    max-width: 600;
+    color: #fff;
+}
+.text-box h1{
+    font-size: 70px;
+    line-height: 90px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.text-box p{
+    line-height: 50px;
+    margin-right:10px ;
+}
+.text-box button{
+    padding: 20px 40px;
+    background:#fff;
+    border: 0;
+    outline: 0;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+}
